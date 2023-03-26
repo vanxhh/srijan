@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="relative bg-green mx-auto p-8 bottom-0">
+    <footer className="relative bg-white mx-auto p-8 bottom-0" id="contact">
       <div className="w-full mx-auto flex flex-wrap gap-8 lg:gap-0">
         <div className="flex w-full lg:w-1/2">
           <div className="px-3 md:px-0">
@@ -85,11 +85,12 @@ const Footer = () => {
             <div className="pt-4">
               <a
                 className="inline-block no-underline hover:text-black hover:underline py-1"
-                href="https://goo.gl/maps/x56XDLsdkcVP2KC38"
+                href="https://www.google.co.in/maps/place/Bhaskaracharya+College+Of+Applied+Sciences/@28.6001701,77.0677378,17z/data=!3m1!4b1!4m6!3m5!1s0x390d1b31d1255555:0x684c6f99c46dff2f!8m2!3d28.6001701!4d77.0677378!16s%2Fm%2F03crr9z"
                 target="_blank"
               >
                 <div className="inline">
-                  <svg className="inline"
+                  <svg
+                    className="inline"
                     xmlns="http://www.w3.org/2000/svg"
                     width="1rem"
                     height="1rem"
@@ -109,8 +110,11 @@ const Footer = () => {
                   </svg>
                 </div>
                 <p>
-                  Bhaskaracharya College of Applied Sciences (University of Delhi)<br/>
-                  Sector 2, Phase 1, Dwarka,<br/>
+                  Bhaskaracharya College of Applied Sciences (University of
+                  Delhi)
+                  <br />
+                  Sector 2, Phase 1, Dwarka,
+                  <br />
                   New Delhi-110075, India
                 </p>
               </a>
