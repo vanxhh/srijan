@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import { d1events, d2events } from "../../constants.js";
 import Image from "next/image";
 
-const event = () => {
+const Event = () => {
   const router = useRouter();
   const { eventid } = router.query;
 
@@ -75,4 +75,4 @@ const event = () => {
   );
 };
 
-export default event;
+export default Event;
